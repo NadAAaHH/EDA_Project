@@ -11,14 +11,14 @@ WomenTechWomenYes (WTWY) is a fictional organization that aims to draw attention
 Assuming that the data has pattern in each season, the data of Summer 2019 will be explored for the purpose uncovering any underlying ridership patterns during Summer. (the data of 2020 was purposely ignored because of the pandamic impact on the patterns)
 
 ### Data
-Each file of data contains more than 190000 row, where each row of the dataset represents a single entry or exist through a turnstile. Merging the data on one dataset resulted in a 5583045 row, with 11 categorical feature except for the ENTRIES and EXITS being integers type (the feature description can be found on their [official website](http://web.mta.info/developers/resources/nyct/turnstile/ts_Field_Description.txt) and 
+Each file of data contains more than 190000 row, where each row of the dataset represents a single entry or exist through a turnstile. Merging the data on one dataset resulted in a 5583045 row, with 11 categorical feature except for the ```ENTRIES``` and ```EXITS``` being integers type (the feature description can be found on their [official website](http://web.mta.info/developers/resources/nyct/turnstile/ts_Field_Description.txt)) and 
 one addtional aggregated feature that represent the date and time together as a timesamp. The dataset was also grouped by specific features in order calculate the maximum entries per turnstile and per station.
 
 ### Tools
-AWS RDS to create a cloud
-PostgreSQL for data storing
-SQLAlchemy to load the data into Python
-Numpy and Pandas for data manipulation
-Matplotlib and Seaborn for plotting
+* **AWS RDS** to create a cloud
+* **PostgreSQL** for data storing
+* **SQLAlchemy** to load the data into Python
+* **Numpy and Pandas** for data manipulation
+* **Matplotlib and Seaborn** for plotting
 
 ### Communication
